@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    /* text-align: center; */
+    /* padding: 50px 0; */
+    height: 180px;
+}
+.navbar {
+    background-color: #FFF;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+}
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+.nav-links li a {
+    color: #000;
+    text-decoration: none;
+}
+.nav-links li a:hover {
+    color: #3E8EFD;
+    font-size: x-large;
+    font-weight: 700;
+}
+.burger {
+    display: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.content {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.main{
+    width: 1457px;
+    height: 900px;
+    background-image: url("img/Web-Solve-Background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 400px 0;
+}
+.icon{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+}
+h1 , p{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    margin-left: 600px; 
+}
+h2,h5{
+    font-family: cursive;
+}
+
+
